@@ -18,8 +18,8 @@
     </style>
 </head>
 <body class="overflow-x-hidden w-screen h-full">
-    <nav class="flex justify-between w-[100%] items-center min-[1175px]:pt-[2rem] ">
-        <img class="w-[8.7rem] h-[6.6rem] min-[1175px]:w-[10.3rem] h-[6.9rem]" src="./assets/images/logo.svg" alt="logo">
+    <nav class="flex justify-between w-[100%] mb-[3rem] items-center px-[1.7rem] min-[1175px]:pt-[2rem] ">
+        <img class="w-[8.7rem] h-[6.6rem] min-[1175px]:w-[10.3rem] h-[6.9rem]" src="assets/images/logo.svg" alt="logo">
         <ul class="hidden  min-[1175px]:flex gap-[5rem]">
             <li><a class="font-[Inter_serif] text-[2.4rem] font-[400]" href="#">Acceuil</a></li>
             <li><a class="font-[Inter_serif] text-[2.4rem] font-[400] underline text-[#79AC78]" href="#">Actualités</a></li>
@@ -27,168 +27,178 @@
             <li><a class="font-[Inter_serif] text-[2.4rem] font-[400]" href="#">Direct</a></li>
         </ul>
         <button class="hidden min-[1175px]:block bg-[#618264] w-[20.3rem] h-[7rem] rounded-[5rem] text-[white] font-[Inter_serif] text-[2rem] font-[700]">Premium</button>
-        <img class="w-[3.8rem] h-[3.8rem] min-[1175px]:hidden" src="./assets/images/menu.svg" alt="menu">
+        <img class="w-[3.8rem] h-[3.8rem] min-[1175px]:hidden" src="assets/images/menu.svg" alt=  "menu">
     </nav>
     <!-- herosection -->
-    <div class="flex flex-col w-[100%]">
-        <div class="w-[100%] flex items-center justify-center">
-            <img class="bg-linear-[white,black]" src="./assets/images/nganou.svg" alt="nganou">  
+    <div class="flex flex-col md:flex-row md:gap-[6.4rem] md:px-[9.2rem] w-[100%]">
+        <div class="w-[100%] relative flex md:flex-2 items-center justify-center">
+            <img class="md:w-[91%] md:rounded-[2rem]" src="assets/images/nganou.svg" alt="nganou">  
+            <div class="w-[91%] md:rounded-[2rem] absolute h-[100%] bg-linear-[#00000000,#000000F2] md:text-[white]">
+                <div class="flex absolute text-[white] left-[1rem] md:left-[5rem] gap-[0.8rem] md:gap-[2.5rem] top-[20rem] md:top-[45rem]">
+                    <div class="w-[1rem] md:w-[1.5rem] h-[6.7rem] md:h-[14.2rem] bg-[#618264] md:rounded-[2rem]"></div>
+                    <div class="flex flex-col justify-between">
+                        <h1 class="font-[IBM Plex Sans Hebrew_serif] text-[1.8rem] md:text-[4rem] font-[700]">Il tape les gens pour vivre , françis <br> Nganou</h1>
+                        <p class="font-[IBM Plex Sans Hebrew_serif] text-[1.1rem] md:text-[2rem] font-[400]">Actu du 23 décembre 2023</p>
+                    </div>
+                </div>
+
+            </div>
         </div>
-        <div class="flex flex-col gap-[1.5rem] p-[2.3rem]">
+        <div class="flex flex-col md:flex-1 gap-[1.5rem] md:gap-[5.4rem] p-[2.3rem]">
             <!-- a la une du jour -->
-            <div class="flex gap-[0.8rem] items-end">
-                <div class="w-[1rem] h-[3.1rem] bg-[#618264]"></div>
-                <h1 class="font-[IBM Plex Sans Hebrew_serif] text-[1.6rem] font-[600]">À LA UNE DU JOUR</h1>
+            <div class="flex gap-[0.8rem] items-end md:items-center">
+                <div class="w-[1rem] md:w-[1.3rem] h-[3.1rem] md:h-[5rem] bg-[#618264] md:rounded-[2rem]"></div>
+                <h1 class="font-[IBM Plex Sans Hebrew_serif] text-[1.6rem] md:text-[2rem] font-[600]">À LA UNE DU JOUR</h1>
             </div>
             <div class="flex gap-[3rem]">
                 <div class="flex flex-1">
-                    <img src="./assets/images/img21.svg" alt="enfant">
+                    <img src="assets/images/img21.svg" alt="enfant">
                 </div>
                 <div class="flex flex-col gap-[1rem] flex-1">
-                    <h1 class="font-[IBM Plex Sans Hebrew_serif] text-[1.6rem] font-[600]">L’école primaire de melon dans le choc</h1>
-                    <p class="font-[Open Sans_serif] text-[1.2rem] font-[400]">Lundi matin, le sous prefet du nyon-ekele est partie en visite dans son village natale ....</p>
+                    <h1 class="font-[IBM Plex Sans Hebrew_serif] text-[1.6rem] md:text-[2rem] font-[600]">L’école primaire de melon dans le choc</h1>
+                    <p class="font-[Open Sans_serif] text-[1.2rem] font-[400] md:text-[1.4rem]">Lundi matin, le sous prefet du nyon-ekele est partie en visite dans son village natale ....</p>
                 </div>
             </div>
-            <hr>
+            <hr class="md:hidden">
             <div class="flex gap-[3rem]">
                 <div class="flex flex-[1]">
-                    <img src="./assets/images/img22.svg" alt="enfant">
+                    <img src="assets/images/img22.svg" alt="enfant">
                 </div>
                 <div class="flex flex-col gap-[1rem] flex-1">
-                    <h1 class="font-[IBM Plex Sans Hebrew_serif] text-[1.6rem] font-[600]">Manifestations pour la baisse des prix</h1>
-                    <p class="font-[Open Sans_serif] text-[1.2rem] font-[400]">Lundi matin, le sous prefet du nyon-ekele est partie en visite dans son village natale ....</p>
+                    <h1 class="font-[IBM Plex Sans Hebrew_serif] text-[1.6rem] md:text-[2rem] font-[600]">Manifestations pour la baisse des prix</h1>
+                    <p class="font-[Open Sans_serif] text-[1.2rem] font-[400] md:text-[1.4rem]">Lundi matin, le sous prefet du nyon-ekele est partie en visite dans son village natale ....</p>
                 </div>
             </div>
-            <hr>
+            <hr class="md:hidden">
             <div class="flex gap-[3rem]">
                 <div class="flex flex-[1]">
-                    <img src="./assets/images/img23.svg" alt="enfant">
+                    <img src="assets/images/img23.svg" alt="enfant">
                 </div>
                 <div class="flex flex-col gap-[1rem] flex-1">
-                    <h1 class="font-[IBM Plex Sans Hebrew_serif] text-[1.6rem] font-[600]">Bientot un métro dans la capitale </h1>
-                    <p class="font-[Open Sans_serif] text-[1.2rem] font-[400]">Lundi matin, le sous prefet du nyon-ekele est partie en visite dans son village natale ....</p>
+                    <h1 class="font-[IBM Plex Sans Hebrew_serif] text-[1.6rem] md:text-[2rem] font-[600]">Bientot un métro dans la capitale </h1>
+                    <p class="font-[Open Sans_serif] text-[1.2rem] font-[400] md:text-[1.4rem]">Lundi matin, le sous prefet du nyon-ekele est partie en visite dans son village natale ....</p>
                 </div>
             </div>
         </div>    
     </div>
     <!-- liste d'image defilante -->
-    <div class="flex overflow-x-scroll gap-[4.5rem] p-[2.3rem]">
-        <div class="flex flex-col gap-[2rem]">
-            <img src="./assets/images/img31.svg" alt="enfant">
+    <div class="flex overflow-x-scroll gap-[4.5rem] md:gap-[17.9rem] p-[2.3rem] md:justify-between md:mx-[6.4rem] md:my-[13.7rem]">
+        <div class="flex flex-col gap-[2rem] md:gap-[1.4rem]">
+            <img src="assets/images/img31.svg" alt="enfant">
             <p class="font-[Inter_serif] text-[#79AC78] text-[1.3rem] font-[400] italic">Mardi , 10 Janvier 2025  10:30</p>
-            <h1 class="font-[IBM Plex Sans Hebrew_serif] text-[1.6rem] font-[600]">Lutte contre le travail des enfants , l’UNESCO réagit</h1>
+            <h1 class="font-[IBM Plex Sans Hebrew_serif] text-[1.6rem] md:text-[2.4rem] font-[600]">Lutte contre le travail des enfants , l’UNESCO réagit</h1>
         </div>
-        <div class="flex flex-col gap-[2rem]">
-            <img src="./assets/images/img31.svg" alt="enfant">
+        <div class="flex flex-col gap-[2rem] md:gap-[1.4rem]">
+            <img src="assets/images/img31.svg" alt="enfant">
             <p class="font-[Inter_serif] text-[#79AC78] text-[1.3rem] font-[400] italic">Mardi , 10 Janvier 2025  10:30</p>
-            <h1 class="font-[IBM Plex Sans Hebrew_serif] text-[1.6rem] font-[600]">Lutte contre le travail des enfants , l’UNESCO réagit</h1>
+            <h1 class="font-[IBM Plex Sans Hebrew_serif] text-[1.6rem] md:text-[2.4rem] font-[600]">Lutte contre le travail des enfants , l’UNESCO réagit</h1>
         </div>
-        <div class="flex flex-col gap-[2rem]">
-            <img src="./assets/images/img31.svg" alt="enfant">
+        <div class="flex flex-col gap-[2rem] md:gap-[1.4rem]">
+            <img src="assets/images/img31.svg" alt="enfant">
             <p class="font-[Inter_serif] text-[#79AC78] text-[1.3rem] font-[400] italic">Mardi , 10 Janvier 2025  10:30</p>
-            <h1 class="font-[IBM Plex Sans Hebrew_serif] text-[1.6rem] font-[600]">Lutte contre le travail des enfants , l’UNESCO réagit</h1>
+            <h1 class="font-[IBM Plex Sans Hebrew_serif] text-[1.6rem] md:text-[2.4rem] font-[600]">Lutte contre le travail des enfants , l’UNESCO réagit</h1>
         </div>
     </div> 
  
-    <div class="w-[screen] flex flex-col gap-[3.6rem] justify-center items-center w-screen pt-[3rem]">
-        <h1 class="flex font-[IBM Plex Sans Hebrew_serif] text-[2rem] text-center font-[600]">Suivez l’actualité en direct sur Canal 2 International</h1>
+    <div class="w-[screen] flex flex-col gap-[3.6rem] md:gap-[7rem] justify-center items-center w-screen pt-[3rem]">
+        <h1 class="flex font-[IBM Plex Sans Hebrew_serif] text-[2rem] md:text-[4.8rem] text-center font-[600]">Suivez l’actualité en direct sur Canal 2 International</h1>
         <div class="w-[100%] flex justify-center">
-            <iframe class="w-[90%] h-[22.2rem] flex" src="https://www.youtube.com/embed/2JTuTyTWR1Q?si=MDaBRHqYooSCTUr2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+            <iframe class="w-[90%] md:rounded-[2rem] md:w-[112rem] md:h-[62.3rem] h-[22.2rem] flex" src="https://www.youtube.com/embed/2JTuTyTWR1Q?si=MDaBRHqYooSCTUr2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
             </iframe>
         </div>
-        <h1 class="flex font-[IBM Plex Sans Hebrew_serif] font-[IBM Plex Sans Hebrew_serif] text-[2rem] text-center font-[600]">Suivez l’actualité en direct sur Canal 2 International</h1>
+        <h1 class="flex font-[IBM Plex Sans Hebrew_serif]  text-[2rem] md:text-[4.8rem] md:hidden text-center font-[600]">Suivez l’actualité en direct sur Canal 2 International</h1>
+        <h1 class="hidden md:flex font-[IBM Plex Sans Hebrew_serif] text-[4.8rem] text-center font-[600]">Retrouvez vos programmes préférés </h1>
     </div>
-    <div class="p-[2.3rem] flex flex-col gap-[2.4rem]">
-        <div class="flex justify-center">
-            <img src="./assets/images/canalmatin.svg" alt="canal matin">
+    <div class="p-[2.3rem] flex flex-col gap-[2.4rem] md:gap-[10.4rem] md:pt-[12.1rem] md:flex-row md:px-[6.5rem]">
+        <div class="flex justify-center items-center md:flex-1">
+            <img class="md:w-[100%] md:rounded-[2rem]" src=/assets/images/canalmatin.svg" alt="canal matin">
         </div>
-        <div class="flex flex-col gap-[2.7rem]">
-            <h1 class="font-[IBM Plex Sans Hebrew_serif] text-[3.2rem] text-[#618264] font-[600]">CANAL MATIN</h1>
-            <p class="font-[Open Sans_serif] text-[1.4rem] pl-[1rem] font-[400]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</p>
-            <p class="font-[Open Sans_serif] text-[1.4rem] pl-[1rem] font-[400]">Du Lundi au vendredi sur Canal 2 international</p>
+        <div class="flex flex-col gap-[2.7rem] md:justify-evenly md:flex-1">
+            <h1 class="font-[IBM Plex Sans Hebrew_serif] text-[3.2rem] md:text-[4.8rem] text-[#618264] font-[600]">CANAL MATIN</h1>
+            <p class="font-[Open Sans_serif] text-[1.4rem] md:text-[2.4rem] pl-[1rem] font-[400]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</p>
+            <p class="font-[Open Sans_serif] text-[1.4rem] md:text-[2.4rem] pl-[1rem] font-[400]">Du Lundi au vendredi sur Canal 2 international</p>
             <div class="flex gap-[2.8rem]">
-                <img src="./assets/images/insta.svg" alt="insta">
-                <img src="./assets/images/facebook.svg" alt="facebook">
-                <img src="./assets/images/x.svg" alt="x">
-                <img src="./assets/images/linkdin.svg" alt="linkdin">
+                <img src="assets/images/insta.svg" alt="insta">
+                <img src="assets/images/facebook.svg" alt="facebook">
+                <img src="assets/images/x.svg" alt="x">
+                <img src="assets/images/linkdin.svg" alt="linkdin">
             </div>
         </div>
     </div>
     <!-- deuxieme liste d'image defilante -->
-    <div class="flex overflow-x-scroll gap-[4.5rem] p-[2.3rem]">
-        <div class="flex flex-col gap-[2rem]">
-            <img src="./assets/images/minarene.svg" alt="enfant">
+    <div class="flex overflow-x-scroll gap-[4.5rem] md:gap-[17.9rem] p-[2.3rem] md:justify-between md:mx-[6.4rem] md:my-[13.7rem]">
+        <div class="flex flex-col gap-[2rem] md:gap-[1.4rem]">
+            <img class=" md:rounded-[2rem] " src="assets/images/minarene.svg" alt="enfant">
             <p class="font-[Inter_serif] text-[#79AC78] text-[1.3rem] font-[400] italic">Mardi , 10 Janvier 2025  10:30</p>
-            <h1 class="font-[IBM Plex Sans Hebrew_serif] text-[1.6rem] font-[600]">NOUS CHEZ VOUS</h1>
+            <h1 class="font-[IBM Plex Sans Hebrew_serif] text-[1.6rem] md:text-[2.4rem] font-[600]">Lutte contre le travail des enfants , l’UNESCO réagit</h1>
         </div>
-        <div class="flex flex-col gap-[2rem]">
-            <img src="./assets/images/minarene.svg" alt="enfant">
+        <div class="flex flex-col gap-[2rem] md:gap-[1.4rem]">
+            <img class=" md:rounded-[2rem] " src="assets/images/minarene.svg" alt="enfant">
             <p class="font-[Inter_serif] text-[#79AC78] text-[1.3rem] font-[400] italic">Mardi , 10 Janvier 2025  10:30</p>
-            <h1 class="font-[IBM Plex Sans Hebrew_serif] text-[1.6rem] font-[600]">L’ARENE par Rodrigue Tongue</h1>
+            <h1 class="font-[IBM Plex Sans Hebrew_serif] text-[1.6rem] md:text-[2.4rem] font-[600]">Lutte contre le travail des enfants , l’UNESCO réagit</h1>
         </div>
-        <div class="flex flex-col gap-[2rem]">
-            <img src="./assets/images/minarene.svg" alt="enfant">
+        <div class="flex flex-col gap-[2rem] md:gap-[1.4rem]">
+            <img class=" md:rounded-[2rem] " src="assets/images/minarene.svg" alt="enfant">
             <p class="font-[Inter_serif] text-[#79AC78] text-[1.3rem] font-[400] italic">Mardi , 10 Janvier 2025  10:30</p>
-            <h1 class="font-[IBM Plex Sans Hebrew_serif] text-[1.6rem] font-[600]">COMEDIE PRESSE</h1>
+            <h1 class="font-[IBM Plex Sans Hebrew_serif] text-[1.6rem] md:text-[2.4rem] font-[600]">Lutte contre le travail des enfants , l’UNESCO réagit</h1>
         </div>
     </div> 
-    <div class="p-[2.3rem] flex flex-col gap-[2.4rem]">
-        <div class="flex justify-center">
-            <img src="./assets/images/comment.svg" alt="c'est comment?">
+    <div class="p-[2.3rem] flex flex-col gap-[2.4rem] md:gap-[10.4rem] md:pt-[12.1rem] md:flex-row-reverse md:px-[6.5rem]">
+        <div class="flex justify-center items-center md:flex-1">
+            <img class="md:w-[100%] md:rounded-[2rem]" src="assets/images/comment.svg" alt="c'est comment?">
         </div>
-        <div class="flex flex-col gap-[2.7rem]">
-            <h1 class="font-[IBM Plex Sans Hebrew_serif] text-[3.2rem] text-[#618264] font-[600]">C’ COMMENT ? </h1>
-            <p class="font-[Open Sans_serif] text-[1.4rem] pl-[1rem] font-[400]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</p>
-            <p class="font-[Open Sans_serif] text-[1.4rem] pl-[1rem] font-[400]">Du Lundi au vendredi sur Canal 2 international</p>
+        <div class="flex flex-col gap-[2.7rem] md:justify-evenly md:flex-1">
+            <h1 class="font-[IBM Plex Sans Hebrew_serif] text-[3.2rem] md:text-[4.8rem] text-[#618264] font-[600]">C’ COMMENT ? </h1>
+            <p class="font-[Open Sans_serif] text-[1.4rem] md:text-[2.4rem] pl-[1rem] font-[400]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</p>
+            <p class="font-[Open Sans_serif] text-[1.4rem] md:text-[2.4rem] pl-[1rem] font-[400]">Du Lundi au vendredi sur Canal 2 international</p>
             <div class="flex gap-[2.8rem]">
-                <img src="./assets/images/insta.svg" alt="insta">
-                <img src="./assets/images/facebook.svg" alt="facebook">
-                <img src="./assets/images/x.svg" alt="x">
-                <img src="./assets/images/linkdin.svg" alt="linkdin">
+                <img src="assets/images/insta.svg" alt="insta">
+                <img src="assets/images/facebook.svg" alt="facebook">
+                <img src="assets/images/x.svg" alt="x">
+                <img src="assets/images/linkdin.svg" alt="linkdin">
             </div>
         </div>
     </div>
-    <div class="flex flex-col gap-[2.6rem] p-[2rem]">
-        <div class="flex items-center gap-[2rem]">
-            <div class="w-[1.2rem] h-[4rem] bg-[#618264]"></div>
-            <h1 class="font-[IBM Plex Sans Hebrew_serif] text-[3.2rem] text-[#618264] font-[600]">ESPACE PUBLICITÉ</h1>
+
+
+    <div class="flex flex-col gap-[2.6rem] p-[2rem] md:flex-row md:mx-[5rem] md:items-center md:mt-[23rem]">
+        <div class="flex items-center gap-[2rem] md:gap-[0rem] md:justify-center bg-[red] md:w-[7rem] md:h-[57.9rem] md:flex-col">
+            <div class="flex md:rotate-[270deg] md:writing-mode-vertical-rl md:gap-[1.7rem] items-center gap-[2rem] bg-[red]">
+                <div class="w-[1.2rem] md:h-[1.3rem] h-[4rem] md:w-[5rem] bg-[#618264]"></div>
+                <h1 class="  font-[IBM Plex Sans Hebrew_serif] text-[3.2rem] md:text-[4.8rem] md:w-[44rem] md:text-center text-[#618264] font-[600]">ESPACE PUBLICITÉ</h1>
+                <div class="hidden md:flex bg-[#618264] h-[1.3rem] w-[5rem]"></div>
+            </div>
         </div>
-        <div>
-            <img src="./assets/images/imgsm.svg" alt="sm la marque des leaders">
+        <div class="md:w-[100%] md:h-[57.9rem] md:bg-cover md:bg-no-repeat md:bg-[url(assets/images/imgsm.svg)]">
+            <img class="md:hidden" src="assets/images/imgsm.svg" alt="sm la marque des leaders">
         </div>
     </div>
     <!-- troisieme liste defilante -->
-    <div class="flex overflow-x-auto gap-[4.5rem] p-[2.3rem]">
-        <div class="flex flex-col gap-[2rem]">
-            <img src="./assets/images/minarene.svg" alt="enfant">
+    <div class="flex overflow-x-scroll gap-[4.5rem] md:gap-[17.9rem] p-[2.3rem] md:justify-between md:mx-[6.4rem] md:my-[13.7rem]">
+        <div class="flex flex-col gap-[2rem] md:gap-[1.4rem]">
+            <img class=" md:rounded-[2rem] " src="assets/images/dame.svg" alt="enfant">
             <p class="font-[Inter_serif] text-[#79AC78] text-[1.3rem] font-[400] italic">Mardi , 10 Janvier 2025  10:30</p>
-            <h1 class="font-[IBM Plex Sans Hebrew_serif] text-[1.6rem] font-[600]">NOUS CHEZ VOUS</h1>
+            <h1 class="font-[IBM Plex Sans Hebrew_serif] text-[1.6rem] md:text-[2.4rem] font-[600]">The standard Lorem Ipsum passage, used since the 1500s</h1>
         </div>
-        <div class="flex flex-col gap-[2rem]">
-            <img src="./assets/images/minarene.svg" alt="enfant">
+        <div class="flex flex-col gap-[2rem] md:gap-[1.4rem]">
+            <img class=" md:rounded-[2rem] " src="assets/images/dame.svg" alt="enfant">
             <p class="font-[Inter_serif] text-[#79AC78] text-[1.3rem] font-[400] italic">Mardi , 10 Janvier 2025  10:30</p>
-            <h1 class="font-[IBM Plex Sans Hebrew_serif] text-[1.6rem] font-[600]">L’ARENE par Rodrigue Tongue</h1>
+            <h1 class="font-[IBM Plex Sans Hebrew_serif] text-[1.6rem] md:text-[2.4rem] font-[600]">The standard Lorem Ipsum passage, used since the 1500s</h1>
         </div>
-        <div class="flex flex-col gap-[2rem]">
-            <img src="./assets/images/minarene.svg" alt="enfant">
+        <div class="flex flex-col gap-[2rem] md:gap-[1.4rem]">
+            <img class=" md:rounded-[2rem] " src="assets/images/dame.svg" alt="enfant">
             <p class="font-[Inter_serif] text-[#79AC78] text-[1.3rem] font-[400] italic">Mardi , 10 Janvier 2025  10:30</p>
-            <h1 class="font-[IBM Plex Sans Hebrew_serif] text-[1.6rem] font-[600]">COMEDIE PRESSE</h1>
+            <h1 class="font-[IBM Plex Sans Hebrew_serif] text-[1.6rem] md:text-[2.4rem] font-[600]">The standard Lorem Ipsum passage, used since the 1500s</h1>
+        </div>
+    </div> 
+    <div class="flex items-center bg-[#618264] w-screen h-full md:h-[42.6rem] flex-col h-[25.4rem] pt-[6rem] pb-[6rem] justify-center">
+        <div><img class="md:w-[37.2rem] md:h-[21.3rem]" src="assets/images/logo.svg" alt="canal2"></div>
+        <div class="flex gap-[2.8rem] md:justify-between">
+            <img class="md:size-[5.4rem]" src="assets/images/finsta.svg" alt="insta">
+            <img class="md:size-[5.4rem]" src="assets/images/ffacebok.svg" alt="facebook">
+            <img class="md:size-[5.4rem]" src="assets/images/fx.svg" alt="x">
+            <img class="md:size-[5.4rem]" src="assets/images/flinkdin.svg" alt="linkdin">
         </div>
     </div>
-    
-    <div class="flex items-center bg-[#618264] w-screen h-full flex-col h-[25.4rem] pt-[6rem] pb-[6rem] justify-center">
-        <div> <img src="./assets/images/logo.svg" alt="canal2"></div>
-        <div class="flex gap-[2.8rem]">
-            <img src="./assets/images/finsta.svg" alt="insta">
-            <img src="./assets/images/ffacebok.svg" alt="facebook">
-            <img src="./assets/images/fx.svg" alt="x">
-            <img src="./assets/images/flinkdin.svg" alt="linkdin">
-        </div>
-    </div>
-
-    
-
-
-    
 </body>
 </html>
